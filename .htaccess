@@ -1,0 +1,5 @@
+<IfModule mod_rewrite.c>
+ RewriteEngine on
+ RewriteRule ^blurays/?$ blurays.php
+ RewriteRule ^blurays/([0-9]+)$ blurays.php?id=$1
+ </IfModule>
